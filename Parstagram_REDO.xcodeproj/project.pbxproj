@@ -13,6 +13,7 @@
 		01D00E6E2412089C004DFB8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D00E6D2412089C004DFB8B /* Assets.xcassets */; };
 		01D00E712412089C004DFB8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D00E702412089C004DFB8B /* Preview Assets.xcassets */; };
 		01D00E742412089C004DFB8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D00E722412089C004DFB8B /* LaunchScreen.storyboard */; };
+		E380171CF2EEDC3C10EAF961 /* Pods_Parstagram_REDO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E835D5D628D00271CAE24FE /* Pods_Parstagram_REDO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		01D00E702412089C004DFB8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01D00E732412089C004DFB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01D00E752412089C004DFB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E835D5D628D00271CAE24FE /* Pods_Parstagram_REDO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram_REDO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D7772482BD0E74C2277A74 /* Pods-Parstagram_REDO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram_REDO.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram_REDO/Pods-Parstagram_REDO.debug.xcconfig"; sourceTree = "<group>"; };
+		CC31D01F363AA9C99B7482F0 /* Pods-Parstagram_REDO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram_REDO.release.xcconfig"; path = "Target Support Files/Pods-Parstagram_REDO/Pods-Parstagram_REDO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E380171CF2EEDC3C10EAF961 /* Pods_Parstagram_REDO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				01D00E662412089A004DFB8B /* Parstagram_REDO */,
 				01D00E652412089A004DFB8B /* Products */,
+				91E15881FB9C82FAE4FEFB87 /* Pods */,
+				36FA37B0953ED20F8035A478 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +82,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		36FA37B0953ED20F8035A478 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E835D5D628D00271CAE24FE /* Pods_Parstagram_REDO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91E15881FB9C82FAE4FEFB87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72D7772482BD0E74C2277A74 /* Pods-Parstagram_REDO.debug.xcconfig */,
+				CC31D01F363AA9C99B7482F0 /* Pods-Parstagram_REDO.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01D00E782412089C004DFB8B /* Build configuration list for PBXNativeTarget "Parstagram_REDO" */;
 			buildPhases = (
+				944EE81330776044C9BB2789 /* [CP] Check Pods Manifest.lock */,
 				01D00E602412089A004DFB8B /* Sources */,
 				01D00E612412089A004DFB8B /* Frameworks */,
 				01D00E622412089A004DFB8B /* Resources */,
+				270BCE64A41D9143A120CC19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +167,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		270BCE64A41D9143A120CC19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parstagram_REDO/Pods-Parstagram_REDO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parstagram_REDO/Pods-Parstagram_REDO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Parstagram_REDO/Pods-Parstagram_REDO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		944EE81330776044C9BB2789 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parstagram_REDO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		01D00E602412089A004DFB8B /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		01D00E792412089C004DFB8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D7772482BD0E74C2277A74 /* Pods-Parstagram_REDO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +371,7 @@
 		};
 		01D00E7A2412089C004DFB8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC31D01F363AA9C99B7482F0 /* Pods-Parstagram_REDO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
