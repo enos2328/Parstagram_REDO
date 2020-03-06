@@ -3,28 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		01D00E682412089A004DFB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D00E672412089A004DFB8B /* AppDelegate.swift */; };
-		01D00E6A2412089A004DFB8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D00E692412089A004DFB8B /* SceneDelegate.swift */; };
-		01D00E6C2412089A004DFB8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D00E6B2412089A004DFB8B /* ContentView.swift */; };
 		01D00E6E2412089C004DFB8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D00E6D2412089C004DFB8B /* Assets.xcassets */; };
 		01D00E712412089C004DFB8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D00E702412089C004DFB8B /* Preview Assets.xcassets */; };
 		01D00E742412089C004DFB8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D00E722412089C004DFB8B /* LaunchScreen.storyboard */; };
+		01D00E7C24120F02004DFB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D00E7B24120F02004DFB8B /* Main.storyboard */; };
+		01D00E7E24121040004DFB8B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D00E7D24121040004DFB8B /* LoginViewController.swift */; };
+		01D00E802412105E004DFB8B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D00E7F2412105E004DFB8B /* FeedViewController.swift */; };
 		E380171CF2EEDC3C10EAF961 /* Pods_Parstagram_REDO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E835D5D628D00271CAE24FE /* Pods_Parstagram_REDO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01D00E642412089A004DFB8B /* Parstagram_REDO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram_REDO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D00E672412089A004DFB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01D00E692412089A004DFB8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01D00E6B2412089A004DFB8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01D00E6D2412089C004DFB8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01D00E702412089C004DFB8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01D00E732412089C004DFB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01D00E752412089C004DFB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D00E7B24120F02004DFB8B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		01D00E7D24121040004DFB8B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		01D00E7F2412105E004DFB8B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		1E835D5D628D00271CAE24FE /* Pods_Parstagram_REDO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram_REDO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D7772482BD0E74C2277A74 /* Pods-Parstagram_REDO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram_REDO.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram_REDO/Pods-Parstagram_REDO.debug.xcconfig"; sourceTree = "<group>"; };
 		CC31D01F363AA9C99B7482F0 /* Pods-Parstagram_REDO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram_REDO.release.xcconfig"; path = "Target Support Files/Pods-Parstagram_REDO/Pods-Parstagram_REDO.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,12 +66,13 @@
 			isa = PBXGroup;
 			children = (
 				01D00E672412089A004DFB8B /* AppDelegate.swift */,
-				01D00E692412089A004DFB8B /* SceneDelegate.swift */,
-				01D00E6B2412089A004DFB8B /* ContentView.swift */,
 				01D00E6D2412089C004DFB8B /* Assets.xcassets */,
 				01D00E722412089C004DFB8B /* LaunchScreen.storyboard */,
 				01D00E752412089C004DFB8B /* Info.plist */,
 				01D00E6F2412089C004DFB8B /* Preview Content */,
+				01D00E7B24120F02004DFB8B /* Main.storyboard */,
+				01D00E7D24121040004DFB8B /* LoginViewController.swift */,
+				01D00E7F2412105E004DFB8B /* FeedViewController.swift */,
 			);
 			path = Parstagram_REDO;
 			sourceTree = "<group>";
@@ -96,7 +99,6 @@
 				72D7772482BD0E74C2277A74 /* Pods-Parstagram_REDO.debug.xcconfig */,
 				CC31D01F363AA9C99B7482F0 /* Pods-Parstagram_REDO.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -163,6 +165,7 @@
 				01D00E742412089C004DFB8B /* LaunchScreen.storyboard in Resources */,
 				01D00E712412089C004DFB8B /* Preview Assets.xcassets in Resources */,
 				01D00E6E2412089C004DFB8B /* Assets.xcassets in Resources */,
+				01D00E7C24120F02004DFB8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D00E7E24121040004DFB8B /* LoginViewController.swift in Sources */,
 				01D00E682412089A004DFB8B /* AppDelegate.swift in Sources */,
-				01D00E6A2412089A004DFB8B /* SceneDelegate.swift in Sources */,
-				01D00E6C2412089A004DFB8B /* ContentView.swift in Sources */,
+				01D00E802412105E004DFB8B /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,16 +359,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Parstagram_REDO/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Parstagram_REDO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.csumb.Parstagram-REDO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -376,16 +381,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Parstagram_REDO/Preview Content\"";
+				DEVELOPMENT_TEAM = LN747D9VGY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Parstagram_REDO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.csumb.Parstagram-REDO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
