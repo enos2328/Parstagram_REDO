@@ -21,11 +21,7 @@ The following **bonus** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories (2 becuase length was an issue in embedding):
+Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/SlRkUIH' title='Video Walkthrough1' width='240' alt='Video Walkthrough1' />
-Part 1 of Gif^
-
-Part 2 of Gif<br>
-<img src='https://imgur.com/fuHYVHp.gif' title='Video Walkthrough2' width='240' alt='Video Walkthrough2' />
+<img src='https://imgur.com/OUuuBSJ.gif' title='Video Walkthrough1' width='240' alt='Video Walkthrough1' />
 
