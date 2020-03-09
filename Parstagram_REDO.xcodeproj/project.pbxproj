@@ -15,6 +15,7 @@
 		01D00E7C24120F02004DFB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D00E7B24120F02004DFB8B /* Main.storyboard */; };
 		01D00E7E24121040004DFB8B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D00E7D24121040004DFB8B /* LoginViewController.swift */; };
 		01D00E802412105E004DFB8B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D00E7F2412105E004DFB8B /* FeedViewController.swift */; };
+		01DE1AE12416E1E900AC991D /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE1AE02416E1E900AC991D /* PostTableViewCell.swift */; };
 		E380171CF2EEDC3C10EAF961 /* Pods_Parstagram_REDO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E835D5D628D00271CAE24FE /* Pods_Parstagram_REDO.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		01D00E7B24120F02004DFB8B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		01D00E7D24121040004DFB8B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01D00E7F2412105E004DFB8B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		01DE1AE02416E1E900AC991D /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		1E835D5D628D00271CAE24FE /* Pods_Parstagram_REDO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram_REDO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D7772482BD0E74C2277A74 /* Pods-Parstagram_REDO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram_REDO.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram_REDO/Pods-Parstagram_REDO.debug.xcconfig"; sourceTree = "<group>"; };
 		CC31D01F363AA9C99B7482F0 /* Pods-Parstagram_REDO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram_REDO.release.xcconfig"; path = "Target Support Files/Pods-Parstagram_REDO/Pods-Parstagram_REDO.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				01D00E7D24121040004DFB8B /* LoginViewController.swift */,
 				01D00E7F2412105E004DFB8B /* FeedViewController.swift */,
 				01CE668824160F4C0084C5EB /* CameraViewController.swift */,
+				01DE1AE02416E1E900AC991D /* PostTableViewCell.swift */,
 				01D00E6F2412089C004DFB8B /* Preview Content */,
 			);
 			path = Parstagram_REDO;
@@ -224,6 +227,7 @@
 			files = (
 				01D00E7E24121040004DFB8B /* LoginViewController.swift in Sources */,
 				01CE668924160F4C0084C5EB /* CameraViewController.swift in Sources */,
+				01DE1AE12416E1E900AC991D /* PostTableViewCell.swift in Sources */,
 				01D00E682412089A004DFB8B /* AppDelegate.swift in Sources */,
 				01D00E802412105E004DFB8B /* FeedViewController.swift in Sources */,
 			);
