@@ -23,9 +23,9 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories (2 becuase length was an issue in embedding):
 
-<img src='https://imgur.com/SlRkUIH.gif' title='Video Walkthrough1' width='240' alt='Video Walkthrough1' />
+<img src='https://imgur.com/SlRkUIH' title='Video Walkthrough1' width='240' alt='Video Walkthrough1' />
 Part 1 of Gif^
 
-Part 2 of Gif
+Part 2 of Gif<br>
 <img src='https://imgur.com/fuHYVHp.gif' title='Video Walkthrough2' width='240' alt='Video Walkthrough2' />
 
